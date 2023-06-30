@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+--color-light-blue: #20ccdb;
+--color-white: #EBECDF;
+--color-hover: #c8c9c4;
+}
+
+.styleApp{
+    display: flex;
+    padding: 0.5rem;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #13151a, #1b1a1f, #241e24, #2d2326, #352828);
+}
+.sidebarStyle{
+    display:flex; 
+    flex-direction: column;  
+    padding: 1rem;
+    border: 2px solid var(--color-white);
+    box-shadow: 1px 7px 40px 10px rgba(32,204,219,0.46);
+    -webkit-box-shadow: 1px 7px 40px 10px rgba(32,204,219,0.46);
+    -moz-box-shadow: 1px 7px 40px 10px rgba(32,204,219,0.46);
+    width: 25vw;
+}
+.sidebarSearch:focus{
+    border-color: #686868 !important; 
+    box-shadow: 0 0 0 0.10rem #00000048 !important; 
+}
+
+.scrollbar{
+    overflow: auto;
+}
+.scrollbar::-webkit-scrollbar {
+    width: 1px;
+    background-color: transparent;
+}
+.btn-bg{
+    background-color: var(--color-light-blue) !important;
+    border-color: var(--color-light-blue) !important;
+}
+.linkColor{
+    color: var(--color-light-blue);
+    font-size: 1.2rem;
+}
+.linkColor:hover{
+    color: var(--color-white);
+}
+
+.sidebarItemsStyle {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.linksStyle {
+    color: var(--color-white);
+    padding: 0.5rem;
+    text-decoration: none;
+    font-family: 'Ysabeau SC';
+    font-size: 1.2rem;
+}
+.linksStyle:hover {
+    color: var(--color-hover);
+}
+.linksStyle:focus {
+    color: var(--color-light-blue);
+}
+.maxwidth{
+    max-width: 50%;
+}
+.text-p{
+    color: var(--color-white);
+    font-family: 'Belanosima';
+    font-size: 3rem;
+    padding-left: 1.5rem;
+}
+
+
